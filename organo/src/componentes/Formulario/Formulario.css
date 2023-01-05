@@ -1,4 +1,4 @@
-.formulario{
+.formulario {
   display: flex;
   justify-content: center;
   margin: 80px 0;
@@ -6,8 +6,12 @@
 
 .formulario form {
   max-width: 80%;
-  background-color: #F2F2F2;
+  background: rgb(252, 255, 244);
+  background: -moz-linear-gradient(45deg, rgba(252, 255, 244, 1) 0%, rgba(223, 229, 215, 1) 28%, rgba(179, 190, 173, 1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(252, 255, 244, 1) 0%, rgba(223, 229, 215, 1) 28%, rgba(179, 190, 173, 1) 100%);
+  background: linear-gradient(45deg, rgba(252, 255, 244, 1) 0%, rgba(223, 229, 215, 1) 28%, rgba(179, 190, 173, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfff4', endColorstr='#b3bead', GradientType=1);
   border-radius: 20px;
   padding: 36px 64px;
-  box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.50);
 }
